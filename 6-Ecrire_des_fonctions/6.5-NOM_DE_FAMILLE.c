@@ -3,21 +3,20 @@
 
 // TODO: définir les fonctions intermédiaires nécessaires au calcul d'un nombre sublime
 
-// Préconditions: n is a natural and n > 0
-// Postconditions: returns true if n is magnificent, false otherwise
+// PRE: n est un entier positif
+// POST: Si n est sublime, retourne true. Sinon, retourne false
 bool magnificent(int n) {
     // TODO: calculer si n est sublime ou pas
 }
 
-// Ne pas modifier la ligne suivante
-#ifndef TEST_IHDCB131
-
-int main() {
+int main(void) {
     int nb;
-    // TODO: récupérer le nombre entré par l'utilisateur et déterminer s'il est sublime ou pas
+
+    // TODO: récupérer le nombre entré par l'utilisateur
+
+    // TODO: déterminer si le nombre est sublime ou pas
+
+    // TODO: afficher le résultat
 
     return 0;
 }
-
-// Ne pas modifier la ligne suivante
-#endif

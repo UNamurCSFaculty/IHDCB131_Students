@@ -1,29 +1,30 @@
-#include <stdlib.h>
 #include <stdio.h>
 #include <stdbool.h>
+
 #define MAX 100
 
-// Préconditions: TODO
-// Postconditions: TODO
-bool palindrome(int length, int tab[length]){
+// PRE: TODO
+// POST: TODO
+bool palindrome(int length, int tab[length]) {
     // TODO: à compléter
 }
 
-// Préconditions: TODO
-// Postconditions: TODO
+// PRE: TODO
+// POST: TODO
 void sort_array(int length, int tab[length]) {
     // TODO: à compléter
 }
 
-// Ne pas modifier la ligne suivante
-#ifndef TEST_IHDCB131
-
-int main(){
+int main(void) {
     int length;
-    // TODO: récupérer la taille du tableau, définir le tableau, regarder s'il est un palindrome ou non, et le trier
+
+    // TODO: récupérer la taille du tableau
+
+    // TODO: définir le tableau
+
+    // TODO: regarder si le tableau est un palindrome ou non
+
+    // TODO: trier le tableau
 
     return 0;
 }
-
-// Ne pas modifier la ligne suivante
-#endif

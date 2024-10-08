@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-int main() {
+int main(void) {
     int nombre, a, b;
     bool solution_trouvee;
 

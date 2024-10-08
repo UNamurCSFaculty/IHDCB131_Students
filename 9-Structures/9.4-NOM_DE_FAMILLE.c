@@ -1,49 +1,41 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 // TODO: structure pour le morceau et enum pour le type de morceau
 struct MusicPiece {
-
+    // TODO: à compléter
 };
 
-// Préconditions: TODO
-// Postconditions: TODO
+// PRE: TODO
+// POST: TODO
 void encode_music_piece(struct MusicPiece *music_piece) {
-
+    // TODO: à compléter
 }
 
-// Préconditions: TODO
-// Postconditions: TODO
+// PRE: TODO
+// POST: TODO
 void display_average_length(struct MusicPiece *music_pieces, int number_music_pieces) {
-
+    // TODO: à compléter
 }
 
-// Préconditions: TODO
-// Postconditions: TODO
+// PRE: TODO
+// POST: TODO
 void display_longest_music_piece(struct MusicPiece *music_pieces, int number_music_pieces) {
-
+    // TODO: à compléter
 }
 
-// Préconditions: TODO
-// Postconditions: TODO
+// PRE: TODO
+// POST: TODO
 void display_longest_suite(struct MusicPiece *music_pieces, int number_music_pieces) {
-
+    // TODO: à compléter
 }
 
-
-// Ne pas modifier la ligne suivante
-#ifndef TEST_IHDCB131
-
-int main (int argc,char** argv)
-{
+int main(void) {
     int number_pieces;
+
     printf("Nombre de morceaux à encode: ");
-    scanf("%d",&number_pieces);
+    scanf("%d", &number_pieces);
 
     // TODO: à compléter
 
     return 0;
 }
-
-// Ne pas modifier la ligne suivante
-#endif

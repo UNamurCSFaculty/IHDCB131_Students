@@ -1,30 +1,19 @@
 #include <stdio.h>
 
-int sum_digits(int number) {
-    // Préconditions: number est un entier
-    int sum_of_digits;
-
-    // ...
-
-    // Postconditions: sum_of_digits contient la somme des chiffres de number
-    return sum_of_digits;
-}
-
-// Ne pas modifier la ligne suivante
-#ifndef TEST_IHDCB131
-
-int main() {
+int main(void) {
     int number, sum;
 
+    // TODO: récupérer le naturel number utilisé pour calculer la somme de ses chiffres
 
-    // ----------------------------------
-    // NE PAS MODIFIER LE CODE CI-DESSOUS
-    // ----------------------------------
-    sum = sum_digits(number);
+
+    // PRE: number est un entier naturel
+
+    // TODO: calculer la somme des chiffres de number
+
+    // POST: sum contient la somme des chiffres de number
+
+
     printf("La somme des chiffres de %d est %d", number, sum);
 
     return 0;
 }
-
-// Ne pas modifier la ligne suivante
-#endif
