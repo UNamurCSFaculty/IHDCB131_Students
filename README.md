@@ -1,4 +1,4 @@
-# IHDCB131 Programmation 1 - 2023-2024
+# IHDCB131 Programmation 1 - 2024-2025
 
 ## Que contient ce repository GitHub ?
 
