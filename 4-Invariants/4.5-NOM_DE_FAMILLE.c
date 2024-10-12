@@ -2,11 +2,12 @@
 
 int main(void) {
     int number_notes, max_length, number_of_change;
-    int length[number_notes];
     double max_note;
-    double notes[number_notes];
 
     // TODO: récupérer le nombre de notes que l'utilisateur va encoder
+
+    int length[number_notes];
+    double notes[number_notes];
 
     printf("Entrez successivement la fréquence et la durée de chaque note :\n");
 
