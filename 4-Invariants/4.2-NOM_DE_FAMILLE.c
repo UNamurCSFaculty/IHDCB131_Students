@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main(void) {
-    double average;
-    int sum, number_of_numbers, nbr;
+    double average, sum, nbr;
+    int number_of_numbers;
 
     // PRE: /
 
