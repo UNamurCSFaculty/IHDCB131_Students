@@ -8,10 +8,9 @@ int main(void) {
 
     // TODO: calculer la somme
 
-    // POST: sum contient la somme des nombres entrés et number_of_numbers contient le nombre de nombres entrés
-
-
     // TODO: calculer la moyenne
+
+    // POST: sum contient la somme des nombres entrés, number_of_numbers contient le nombre de nombres entrés et average contient la moyenne des nombres entrés
 
     printf("La moyenne des nombres entrées est : %.2lf", average);
 
