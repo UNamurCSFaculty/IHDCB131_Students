@@ -2,7 +2,7 @@
 
 int main(void) {
     double average;
-    int sum, number_of_numbers;
+    int sum, number_of_numbers, nbr;
 
     // PRE: /
 
