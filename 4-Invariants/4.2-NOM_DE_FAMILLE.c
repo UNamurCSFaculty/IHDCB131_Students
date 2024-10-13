@@ -6,9 +6,13 @@ int main(void) {
 
     // PRE: /
 
-    // TODO: calculer la somme
+    // TODO: Initialisation - initialiser les variables
 
-    // TODO: calculer la moyenne
+    // INV: TODO
+
+    // TODO: Boucle - calculer la somme
+
+    // TODO: Clôture - calculer la moyenne
 
     // POST: sum contient la somme des nombres entrés, number_of_numbers contient le nombre de nombres entrés et average contient la moyenne des nombres entrés
 
