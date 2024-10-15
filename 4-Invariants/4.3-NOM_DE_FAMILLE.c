@@ -14,6 +14,8 @@ int main(void) {
 
     // TODO: Boucle - calculer la somme des n premiers naturels
 
+    // TODO: Clôture - à compléter si nécessaire
+
     // POST: sum contient la somme des n premiers naturels
 
 
