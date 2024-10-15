@@ -8,7 +8,11 @@ int main(void) {
 
     // PRE: n est un entier naturel
 
-    // TODO: calculer la somme des n premiers naturels
+    // TODO: Initialisation - initialiser les variables
+
+    // INV: TODO
+
+    // TODO: Boucle - calculer la somme des n premiers naturels
 
     // POST: sum contient la somme des n premiers naturels
 
