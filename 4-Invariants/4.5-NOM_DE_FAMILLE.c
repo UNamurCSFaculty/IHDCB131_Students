@@ -17,14 +17,24 @@ int main(void) {
     }
 
 
-    // PRE: number_notes est un entier stockant le nombre de notes, notes est un tableau de valeurs réelles stockant les notes jouées, length est un tableau d'entiers stockant la durée des notes jouées
+    // PRE: number_notes est un entier stockant le nombre de notes,
+    //      notes est un tableau de valeurs réelles stockant les notes jouées et
+    //      length est un tableau d'entiers stockant la durée des notes jouées
 
-    // TODO: trouver la note jouée la plus longtemps ainsi que sa durée et stocker ces valeurs dans max_note et max_length
+    // TODO: Initialisation - initialiser les variables
 
-    // POST: la variable max_length contient la durée de la note qui a été jouée le plus longtemps et la variable max_note contient la note jouée le plus longtemps
+    // INV: TODO
 
+    // TODO: Boucle - trouver la note jouée la plus longtemps ainsi que sa durée puis
+    //                stocker ces valeurs dans max_note et max_length et
+    //                calculer le nombre de changements de sens du mouvement mélodique
 
-    // TODO: calculer le nombre de changements de sens du mouvement mélodique
+    // TODO: Clôture - à compléter si nécessaire
+
+    // POST: la variable max_length contient la durée de la note qui a été jouée le plus longtemps,
+    //       la variable max_note contient la note jouée le plus longtemps et
+    //       la variable number_of_change contient le nombre de changements de sens du mouvement mélodique
+
 
     printf("Changements de sens: %d", number_of_change);
     printf("La note la plus longue est %f et a été jouée pendant %d ms", max_note, max_length);
