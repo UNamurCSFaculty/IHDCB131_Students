@@ -8,7 +8,13 @@ int main(void) {
 
     // PRE: number est un entier naturel
 
-    // TODO: calculer la somme des chiffres de number
+    // TODO: Initialisation - initialiser les variables
+
+    // INV: TODO
+
+    // TODO: Boucle - calculer la somme des chiffres de number
+
+    // TODO: Clôture - à compléter si nécessaire
 
     // POST: sum contient la somme des chiffres de number
 
