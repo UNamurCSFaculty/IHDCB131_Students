@@ -16,7 +16,7 @@ int main(void) {
 
     // POST: sum contient la somme des nombres entrés, number_of_numbers contient le nombre de nombres entrés et average contient la moyenne des nombres entrés
 
-    printf("La moyenne des nombres entrées est : %.2lf", average);
+    printf("La moyenne des nombres entrés est : %.2lf", average);
 
     return 0;
 }
