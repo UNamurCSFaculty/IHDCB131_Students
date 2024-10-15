@@ -36,8 +36,8 @@ int main(void) {
     //       la variable number_of_change contient le nombre de changements de sens du mouvement mélodique
 
 
-    printf("Changements de sens: %d", number_of_change);
-    printf("La note la plus longue est %f et a été jouée pendant %d ms", max_note, max_length);
+    printf("Changements de sens: %d\n", number_of_change);
+    printf("La note la plus longue est %.2f et a été jouée pendant %d ms.\n", max_note, max_length);
 
     return 0;
 }
