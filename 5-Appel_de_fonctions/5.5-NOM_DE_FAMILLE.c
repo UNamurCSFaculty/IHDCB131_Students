@@ -34,14 +34,14 @@ int ppcm(int a, int b) {
 }
 
 int main(void) {
-    int nb1, nb2, pgcd, ppcm;
+    int nb1, nb2, pgcd_result, ppcm_result;
 
     // TODO: récupérer les deux nombres encodés par l'utilisateur
 
     // TODO: calculer le PGCD et le PPCM de ces deux nombres en faisant des appels de fonctions
 
-    printf("Le PGCD de %d et %d est %d\n", nb1, nb2, pgcd);
-    printf("Le PPCM de %d et %d est %d\n", nb1, nb2, ppcm);
+    printf("Le PGCD de %d et %d est %d\n", nb1, nb2, pgcd_result);
+    printf("Le PPCM de %d et %d est %d\n", nb1, nb2, ppcm_result);
 
     return 0;
 }
