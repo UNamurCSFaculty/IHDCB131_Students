@@ -19,7 +19,7 @@ int main(void) {
     char mot[MAX];
     char lettre;
 
-    printf("Entrez, lettre par lettre, un mot.  Terminez l'encodage avec '-':\n ");
+    printf("Entrez, lettre par lettre, un mot. Terminez l'encodage avec '-':\n ");
     scanf(" %c", &lettre);
 
     int i = 1;
@@ -28,7 +28,7 @@ int main(void) {
         scanf(" %c", &lettre);
     }
 
-    printf("Entrez, des lettres.  Pour chacune, je vous dis combien d'occurrences il y en a dans le mot que vous avez tapé:\n ");
+    printf("Entrez des lettres. Pour chacune, je vous dis combien d'occurrences il y en a dans le mot que vous avez tapé:\n ");
     scanf(" %c", &lettre);
 
     while (lettre != '-') {
