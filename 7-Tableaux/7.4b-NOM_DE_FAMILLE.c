@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-#define MAX 100
-
 // PRE: TODO
 // POST: TODO
 bool palindrome(int length, int tab[length]) {
