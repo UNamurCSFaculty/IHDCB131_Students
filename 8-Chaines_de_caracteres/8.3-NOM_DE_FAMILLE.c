@@ -43,9 +43,9 @@ int main(void) {
     printf("Nombre de lettres communes: %i\n", common_letters(m1, m2));
 
     if (are_equals(m1, m2)) {
-        printf("Les mots sont égaux\n");
+        printf("Les mots sont égaux.\n");
     } else {
-        printf("Les mots ne sont pas égaux\n");
+        printf("Les mots ne sont pas égaux.\n");
     }
 
     return 0;
