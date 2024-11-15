@@ -34,10 +34,10 @@ int main(void) {
     char m1[MAX_WORD];
     char m2[MAX_WORD];
 
-    printf("Mot 1:");
+    printf("Mot 1: ");
     scanf("%s", &m1);
 
-    printf("Mot 2:");
+    printf("Mot 2: ");
     scanf("%s", &m2);
 
     printf("Nombre de lettres communes: %i\n", common_letters(m1, m2));
