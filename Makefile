@@ -1,4 +1,4 @@
-CFLAGS := -Wall -Wextra -Wformat=2 -Wshadow -Wundef -Wswitch-enum -Wconversion -Wsign-conversion -Wnull-dereference -Wcast-qual -Wcast-align=strict -Wstrict-overflow=2 -Wstrict-prototypes -Wmissing-prototypes -fstack-protector-strong
+CFLAGS := -Wall -Wextra -Wformat=2 -Wshadow -Wundef -Wswitch-enum -Wconversion -Wsign-conversion -Wdouble-promotion -Wnull-dereference -Wcast-qual -Wcast-align=strict -Wstrict-overflow=2 -Wstrict-prototypes -Wmissing-prototypes -fstack-protector-strong
 
 compile-2.2:
 	@gcc $(CFLAGS) 2_les_briques_de_base_d_un_programme/2.2_le_rectangle_dort.c -o 2_les_briques_de_base_d_un_programme/2.2_le_rectangle_dort
