@@ -1,4 +1,4 @@
-CFLAGS := -Wall -Wextra -Wformat=2 -Wshadow -Wundef -Wswitch-enum -Wconversion -Wsign-conversion -Wdouble-promotion -Wnull-dereference -Wcast-qual -Wcast-align=strict -Wstrict-overflow=2 -Wstrict-prototypes -Wmissing-prototypes -fstack-protector-strong
+CFLAGS := -Wall -Wextra -Wformat=2 -Wshadow -Wundef -Wswitch-enum -Wconversion -Wsign-conversion -Wnull-dereference -Wcast-qual -Wcast-align=strict -Wstrict-overflow=2 -Wstrict-prototypes -fstack-protector-strong
 
 compile-2.2:
 	@gcc $(CFLAGS) 2_les_briques_de_base_d_un_programme/2.2_le_rectangle_dort.c -o 2_les_briques_de_base_d_un_programme/2.2_le_rectangle_dort
@@ -113,3 +113,27 @@ compile-4.8:
 
 4.8: compile-4.8
 	@./4_l_iteration/4.8_couchsurfing
+
+compile-5.2:
+	@gcc $(CFLAGS) 5_appel_de_fonctions/5.2_somme_des_chiffres_est_premier/main.c 5_appel_de_fonctions/5.2_somme_des_chiffres_est_premier/utils.c 5_appel_de_fonctions/5.2_somme_des_chiffres_est_premier/utils.h -o 5_appel_de_fonctions/5.2_somme_des_chiffres_est_premier/main
+
+5.2: compile-5.2
+	@./5_appel_de_fonctions/5.2_somme_des_chiffres_est_premier/main
+
+compile-5.3:
+	@gcc $(CFLAGS) 5_appel_de_fonctions/5.3_somme_des_lettres_des_prenoms/main.c 5_appel_de_fonctions/5.3_somme_des_lettres_des_prenoms/compatibilite.c 5_appel_de_fonctions/5.3_somme_des_lettres_des_prenoms/compatibilite.h -o 5_appel_de_fonctions/5.3_somme_des_lettres_des_prenoms/main
+
+5.3: compile-5.3
+	@./5_appel_de_fonctions/5.3_somme_des_lettres_des_prenoms/main
+
+compile-5.4:
+	@gcc $(CFLAGS) 5_appel_de_fonctions/5.4_multiples_de/main.c 5_appel_de_fonctions/5.4_multiples_de/premier.h 5_appel_de_fonctions/5.4_multiples_de/premier.c -o 5_appel_de_fonctions/5.4_multiples_de/main
+
+5.4: compile-5.4
+	@./5_appel_de_fonctions/5.4_multiples_de/main
+
+compile-5.5:
+	@gcc $(CFLAGS) 5_appel_de_fonctions/5.5_facteurs_premiers.c -o 5_appel_de_fonctions/5.5_facteurs_premiers
+
+5.5: compile-5.5
+	@./5_appel_de_fonctions/5.5_facteurs_premiers
