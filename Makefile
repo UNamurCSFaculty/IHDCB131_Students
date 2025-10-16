@@ -115,19 +115,22 @@ compile-4.8:
 	@./4_l_iteration/4.8_couchsurfing
 
 compile-5.2:
-	@gcc $(CFLAGS) 5_appel_de_fonctions/5.2_somme_des_chiffres_est_premier/main.c 5_appel_de_fonctions/5.2_somme_des_chiffres_est_premier/utils.c 5_appel_de_fonctions/5.2_somme_des_chiffres_est_premier/utils.h -o 5_appel_de_fonctions/5.2_somme_des_chiffres_est_premier/main
+	@gcc $(CFLAGS) -c 5_appel_de_fonctions/5.2_somme_des_chiffres_est_premier/utils.c -o 5_appel_de_fonctions/5.2_somme_des_chiffres_est_premier/utils.o
+	@gcc $(CFLAGS) 5_appel_de_fonctions/5.2_somme_des_chiffres_est_premier/main.c 5_appel_de_fonctions/5.2_somme_des_chiffres_est_premier/utils.o -o 5_appel_de_fonctions/5.2_somme_des_chiffres_est_premier/main
 
 5.2: compile-5.2
 	@./5_appel_de_fonctions/5.2_somme_des_chiffres_est_premier/main
 
 compile-5.3:
-	@gcc $(CFLAGS) 5_appel_de_fonctions/5.3_somme_des_lettres_des_prenoms/main.c 5_appel_de_fonctions/5.3_somme_des_lettres_des_prenoms/compatibilite.c 5_appel_de_fonctions/5.3_somme_des_lettres_des_prenoms/compatibilite.h -o 5_appel_de_fonctions/5.3_somme_des_lettres_des_prenoms/main
+	@gcc $(CFLAGS) -c 5_appel_de_fonctions/5.3_somme_des_lettres_des_prenoms/compatibilite.c -o 5_appel_de_fonctions/5.3_somme_des_lettres_des_prenoms/compatibilite.o
+	@gcc $(CFLAGS) 5_appel_de_fonctions/5.3_somme_des_lettres_des_prenoms/main.c 5_appel_de_fonctions/5.3_somme_des_lettres_des_prenoms/compatibilite.o -o 5_appel_de_fonctions/5.3_somme_des_lettres_des_prenoms/main
 
 5.3: compile-5.3
 	@./5_appel_de_fonctions/5.3_somme_des_lettres_des_prenoms/main
 
 compile-5.4:
-	@gcc $(CFLAGS) 5_appel_de_fonctions/5.4_multiples_de/main.c 5_appel_de_fonctions/5.4_multiples_de/premier.h 5_appel_de_fonctions/5.4_multiples_de/premier.c -o 5_appel_de_fonctions/5.4_multiples_de/main
+	@gcc $(CFLAGS) -c 5_appel_de_fonctions/5.4_multiples_de/premier.c -o 5_appel_de_fonctions/5.4_multiples_de/premier.o
+	@gcc $(CFLAGS) 5_appel_de_fonctions/5.4_multiples_de/main.c 5_appel_de_fonctions/5.4_multiples_de/premier.o -o 5_appel_de_fonctions/5.4_multiples_de/main
 
 5.4: compile-5.4
 	@./5_appel_de_fonctions/5.4_multiples_de/main
