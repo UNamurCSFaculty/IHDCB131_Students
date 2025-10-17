@@ -140,3 +140,33 @@ compile-5.5:
 
 5.5: compile-5.5
 	@./5_appel_de_fonctions/5.5_facteurs_premiers
+
+compile-6.2:
+	@gcc $(CFLAGS) 6_ecrire_des_fonctions/6.2_etoiles.c -o 6_ecrire_des_fonctions/6.2_etoiles
+
+6.2: compile-6.2
+	@./6_ecrire_des_fonctions/6.2_etoiles
+
+compile-6.3:
+	@gcc $(CFLAGS) 6_ecrire_des_fonctions/6.3_factoriser.c -o 6_ecrire_des_fonctions/6.3_factoriser
+
+6.3: compile-6.3
+	@./6_ecrire_des_fonctions/6.3_factoriser
+
+compile-6.4:
+	@gcc $(CFLAGS) 6_ecrire_des_fonctions/6.4_nombres_amicaux.c -o 6_ecrire_des_fonctions/6.4_nombres_amicaux
+
+6.4: compile-6.4
+	@./6_ecrire_des_fonctions/6.4_nombres_amicaux
+
+compile-6.5:
+	@gcc $(CFLAGS) 6_ecrire_des_fonctions/6.5_fibonacci.c -o 6_ecrire_des_fonctions/6.5_fibonacci
+
+6.5: compile-6.5
+	@./6_ecrire_des_fonctions/6.5_fibonacci
+
+compile-6.6:
+	@gcc $(CFLAGS) 6_ecrire_des_fonctions/6.6_nombres_sublimes.c -o 6_ecrire_des_fonctions/6.6_nombres_sublimes
+
+6.6: compile-6.6
+	@./6_ecrire_des_fonctions/6.6_nombres_sublimes
