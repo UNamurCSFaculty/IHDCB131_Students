@@ -1,25 +1,25 @@
 #include <stdio.h>
 
 int main(void) {
-    int n, sum;
+    int digit, rest, number, sum;
 
-    // TODO: récupérer le naturel n utilisé pour calculer la somme
+    // TODO: récupérer l'entier number utilisé pour calculer la somme
 
 
-    // PRE: n est un entier naturel
+    // PRE: number est un entier naturel
 
     // TODO: Initialisation - initialiser les variables
 
     // INV: TODO
 
-    // TODO: Boucle - calculer la somme des n premiers naturels
+    // TODO: Boucle - calculer la somme des chiffres de number
 
     // TODO: Clôture - à compléter si nécessaire
 
-    // POST: sum contient la somme des n premiers naturels
+    // POST: sum contient la somme des chiffres de number
 
 
-    printf("La somme des %d premiers naturels est %d", n, sum);
+    printf("La somme des chiffres de %d est %d", number, sum);
 
     return 0;
 }
