@@ -170,3 +170,39 @@ compile-6.6:
 
 6.6: compile-6.6
 	@./6_ecrire_des_fonctions/6.6_nombres_sublimes
+
+compile-7.2:
+	@gcc $(CFLAGS) 7_tableaux/7.2_restaurant_chinois.c -o 7_tableaux/7.2_restaurant_chinois
+
+7.2: compile-7.2
+	@./7_tableaux/7.2_restaurant_chinois
+
+compile-7.3:
+	@gcc $(CFLAGS) 7_tableaux/7.3_chiffrement.c -o 7_tableaux/7.3_chiffrement
+
+7.3: compile-7.3
+	@./7_tableaux/7.3_chiffrement
+
+compile-7.4:
+	@gcc $(CFLAGS) 7_tableaux/7.4_bugs_dans_le_traitement_de_mots.c -o 7_tableaux/7.4_bugs_dans_le_traitement_de_mots
+
+7.4: compile-7.4
+	@./7_tableaux/7.4_bugs_dans_le_traitement_de_mots
+
+compile-7.5:
+	@gcc $(CFLAGS) 7_tableaux/7.5_sequence_de_nombres.c -o 7_tableaux/7.5_sequence_de_nombres
+
+7.5: compile-7.5
+	@./7_tableaux/7.5_sequence_de_nombres
+
+compile-7.6:
+	@gcc $(CFLAGS) 7_tableaux/7.6_les_sanglots_longs.c -o 7_tableaux/7.6_les_sanglots_longs
+
+7.6: compile-7.6
+	@./7_tableaux/7.6_les_sanglots_longs
+
+compile-7.7:
+	@gcc $(CFLAGS) 7_tableaux/7.7_pendu.c -o 7_tableaux/7.7_pendu
+
+7.7: compile-7.7
+	@./7_tableaux/7.7_pendu
