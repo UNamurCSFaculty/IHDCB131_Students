@@ -11,5 +11,7 @@ int main(void) {
 
     printf("La taille du mot est : %d\n", taille_mot);
 
+    // TODO: libérer la mémoire allouée pour le mot
+
     return 0;
 }
