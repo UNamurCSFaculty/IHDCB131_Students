@@ -206,3 +206,33 @@ compile-7.7:
 
 7.7: compile-7.7
 	@./7_tableaux/7.7_pendu
+
+compile-8.2:
+	@gcc $(CFLAGS) 8_chaines_de_caracteres/8.2_taille_chaine_de_caracteres.c -o 8_chaines_de_caracteres/8.2_taille_chaine_de_caracteres
+
+8.2: compile-8.2
+	@./8_chaines_de_caracteres/8.2_taille_chaine_de_caracteres
+
+compile-8.3:
+	@gcc $(CFLAGS) 8_chaines_de_caracteres/8.3_lettres_communes.c -o 8_chaines_de_caracteres/8.3_lettres_communes
+
+8.3: compile-8.3
+	@./8_chaines_de_caracteres/8.3_lettres_communes
+
+compile-8.4:
+	@gcc $(CFLAGS) 8_chaines_de_caracteres/8.4_retourner_une_chaine.c -o 8_chaines_de_caracteres/8.4_retourner_une_chaine
+
+8.4: compile-8.4
+	@./8_chaines_de_caracteres/8.4_retourner_une_chaine
+
+compile-8.5:
+	@gcc $(CFLAGS) 8_chaines_de_caracteres/8.5_extraire_voyelles_et_consonnes.c -o 8_chaines_de_caracteres/8.5_extraire_voyelles_et_consonnes
+
+8.5: compile-8.5
+	@./8_chaines_de_caracteres/8.5_extraire_voyelles_et_consonnes
+
+compile-8.6:
+	@gcc $(CFLAGS) 8_chaines_de_caracteres/8.6_da_love_machine.c -o 8_chaines_de_caracteres/8.6_da_love_machine
+
+8.6: compile-8.6
+	@./8_chaines_de_caracteres/8.6_da_love_machine
