@@ -236,3 +236,22 @@ compile-8.6:
 
 8.6: compile-8.6
 	@./8_chaines_de_caracteres/8.6_da_love_machine
+
+compile-9.2:
+	@gcc $(CFLAGS) 9_structures/9.2_liste_de_clients.c -o 9_structures/9.2_liste_de_clients
+
+9.2: compile-9.2
+	@./9_structures/9.2_liste_de_clients
+
+compile-9.3:
+	@gcc $(CFLAGS) 9_structures/9.3_morceaux_de_musique.c -o 9_structures/9.3_morceaux_de_musique
+
+9.3: compile-9.3
+	@./9_structures/9.3_morceaux_de_musique
+
+compile-9.4:
+	@gcc $(CFLAGS) 9_structures/9.4_philiiiiiiiippe.c -o 9_structures/9.4_philiiiiiiiippe
+
+9.4: compile-9.4
+	@./9_structures/9.4_philiiiiiiiippe
+
